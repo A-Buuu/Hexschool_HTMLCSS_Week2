@@ -157,8 +157,16 @@ h2{
 }
 
 /* section */
+.mb-36{
+    margin-bottom: 36px;
+}
+
 .mr-24{
     margin-right: 24px;
+}
+
+.mb-24{
+    margin-bottom: 24px;
 }
 
 .mr-20{
@@ -178,16 +186,26 @@ h2{
     margin-bottom: 32px;
 }
 /* section_about me */
+.about_me .container{
+    justify-content: space-between;
+    align-items: center;
+}
+
 .card-list{
-    margin-right: 134px;
+    width: 636px;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .card{
+    width: calc(50% - 12px);
+    padding: 16px;
     border: 1px solid #E3E3E3;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.08);
 }
 
-.about_me .title{
-    padding-bottom: 36px;
+.about_me .describe{
+    width: 526px;
 }
 /* section_contact */
 .contact_icon .container{
@@ -196,8 +214,12 @@ h2{
     padding: 96px 0;
 }
 
+.contact_icon a{
+    border-radius: 40px;
+    transition: 1s; /* 轉場效果 */
+}
 .contact_icon a:hover{
-    border: solid 5px purple;
+    box-shadow: 0 0 16px 3px rgba(144, 148, 255, 0.9);
 }
 /* section_project */
 .my_projects .container{
@@ -222,7 +244,7 @@ h2{
 
 .my_projects .title-text{
     margin-bottom: 16px;
-    margin-left: 550px; /* 除了寫死不知道如何讓他置中 */
+    margin-left: 550px; /* 除了寫死不知道如何讓他右邊留點空白 */
 }
 
 .detail_left{
