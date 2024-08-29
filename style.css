@@ -146,7 +146,6 @@ h2{
 }
 
 .header a{
-    color: black;
     text-decoration: none;
     background-color: white;
     padding: 12px 24px;
@@ -170,15 +169,15 @@ h2{
     margin-right: 16px;
 }
 
-.prl-160{
+.ptb-160{
     padding: 160px 0;
 }
-
+/* section_introduction */
 .introduction .content{
     margin-top: 36px;
     margin-bottom: 32px;
 }
-
+/* section_about me */
 .card-list{
     margin-right: 134px;
 }
@@ -190,7 +189,7 @@ h2{
 .about_me .title{
     padding-bottom: 36px;
 }
-
+/* section_contact */
 .contact_icon .container{
     justify-content: space-between;
     align-items: center;
@@ -199,6 +198,36 @@ h2{
 
 .contact_icon a:hover{
     border: solid 5px purple;
+}
+/* section_project */
+.my_projects .container{
+    flex-direction: column;
+}
+
+.my_projects .describe{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.my_projects a{
+    text-decoration: none;
+    background-color: black;
+    padding: 12px 24px;
+    border-radius: 30px;
+}
+
+.my_projects a p{
+    margin-right: 4px;
+}
+
+.my_projects .title-text{
+    margin-bottom: 16px;
+    margin-left: 550px; /* 除了寫死不知道如何讓他置中 */
+}
+
+.detail_left{
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* footer */
